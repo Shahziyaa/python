@@ -11,7 +11,11 @@ courses = {
     "datascience" : 4
 }
 for x,y in courses.items():
+
+
     print('Course:',x,',','Students:',y)
 
 expected_growth = {key: value * 2 for key, value in courses.items()}
 print(expected_growth)
+
+print(globals())
