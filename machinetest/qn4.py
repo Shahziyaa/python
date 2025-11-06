@@ -16,8 +16,8 @@ class Calculator:
 
 calcu = Calculator()
 
-a = float(input("Enter a: "))
-b = float(input("Enter b: "))
+a = float(input("Enter a:"))
+b = float(input("Enter b:"))
 
 print("Select operation: +, -, *, /")
 operation = input("Enter operation: ")
@@ -32,3 +32,5 @@ elif operation == '/':
     print(f"{a} / {b} = {calcu.divide(a, b)}")
 else:
     print("Invalid operation")
+
+
